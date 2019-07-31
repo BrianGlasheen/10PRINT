@@ -14,7 +14,6 @@ canvas.pack(side=tk.BOTTOM)
 
 def ten_print(e):
     canvas.delete('all')
-    density = SCREEN_SIZE//SPACING
     for y in range(0,SCREEN_SIZE,SPACING):
         for x in range(0,SCREEN_SIZE,SPACING): 
             if randint(0,100) > PERCENT_CHANCE:
